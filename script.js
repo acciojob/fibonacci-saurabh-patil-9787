@@ -1,4 +1,4 @@
-let output = document.getElementById('num')
+
 function fibonacci(num) {
 // your code here
 	let num1 = 0;
@@ -17,6 +17,6 @@ function fibonacci(num) {
         return num2;
     }
 }
+fibonacci(5)
 
-output.innerText = fibonacci(1)
 module.exports = fibonacci;
